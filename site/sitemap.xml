@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://www.infactor.io/</loc>
+     <lastmod>2019-03-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.infactor.io/Guide/how_to_setup/</loc>
+     <lastmod>2019-03-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.infactor.io/Guide/Conduct_POC/</loc>
+     <lastmod>2019-03-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.infactor.io/Guide/API/</loc>
+     <lastmod>2019-03-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.infactor.io/Media/Articles/</loc>
+     <lastmod>2019-03-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.infactor.io/faq/General/</loc>
+     <lastmod>2019-03-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>

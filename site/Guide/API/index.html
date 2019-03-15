@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>API Documentataion - InFactor</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "API Documentataion";
+    var mkdocs_page_input_path = "Guide\\API.md";
+    var mkdocs_page_url = "/Guide/API/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> InFactor</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../how_to_setup/">How to setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../Conduct_POC/">Conduct POC</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">API Documentataion</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#authentication">Authentication</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#http-request">HTTP Request</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Media Room</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Media/Articles/">Articles</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">FAQ</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../faq/General/">General</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">InFactor</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Getting Started &raquo;</li>
+        
+      
+    
+    <li>API Documentataion</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/XinFinOrg/Docs-IF/edit/master/docs/Guide/API.md"> Edit on XinFinOrg/Docs-IF</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><strong>API Documentation</strong></p>
+<p>Welcome to the SME API.</p>
+<h2 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h2>
+<p>A JSON Web Token is used to send information that can be verified and trusted by <strong>means</strong> of a digital signature. It comprises a compact and URL-safe JSON object, which is cryptographically signed to verify its authenticity, and which can also be encrypted if the payload contains sensitive information.</p>
+<p>Application may request to access routes, services, or resources on behalf of that user. To do so, it uses an access token, which is in the form of a <strong>JWT</strong> token. user has to provide <strong>JWT</strong> token in header as a authorization in every subsequent request after login.</p>
+<p><strong>Authentication</strong></p>
+<p>Authenticate API in environment with token in response</p>
+<h3 id="http-request">HTTP Request<a class="headerlink" href="#http-request" title="Permanent link">&para;</a></h3>
+<p><code>POST 5.133.176.54:82/api/v1.0/auth/authenticate</code></p>
+<div class=md-fenced-code-tabs id=tab-tab-group-0><input name=tab-group-0 type=radio id=tab-group-0-0_Request checked=checked class=code-tab data-lang=Request aria-controls=tab-group-0-0_Request-panel role=tab><label for=tab-group-0-0_Request class=code-tab-label data-lang=Request id=tab-group-0-0_Request-label>Request</label><div class=code-tabpanel role=tabpanel data-lang=Request id=tab-group-0-0_Request-panel aria-labelledby=tab-group-0-0_Request-label><div class=codehilite><pre><span></span> user           string                API Key or any secret key
+ REQUIRED
+</pre></div></div><input name=tab-group-0 type=radio id=tab-group-0-1_Response class=code-tab data-lang=Response aria-controls=tab-group-0-1_Response-panel role=tab><label for=tab-group-0-1_Response class=code-tab-label data-lang=Response id=tab-group-0-1_Response-label>Response</label><div class=code-tabpanel role=tabpanel data-lang=Response id=tab-group-0-1_Response-panel aria-labelledby=tab-group-0-1_Response-label><div class=codehilite><pre><span></span>200: OK
+{
+    &quot;success&quot;: true,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDk1MzEzNTIsImV4cCI6MTU0OTYxNzc1Mn0.6cTXghU1IdDreucri4nQKK-Q2HjnHgL7CtTKmvYTRzo&quot;
+}
+403: Forbidden
+{
+    &quot;success&quot;: false,
+    &quot;message&quot;: &quot;403 - Invalid API secret key.&quot;
+}
+</pre></div></div></div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../Media/Articles/" class="btn btn-neutral float-right" title="Articles">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Conduct_POC/" class="btn btn-neutral" title="Conduct POC"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-IF/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-IF/issues/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>InFactor.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../Conduct_POC/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../Media/Articles/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/MathJax.js?config=TeX-AMS_HTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
