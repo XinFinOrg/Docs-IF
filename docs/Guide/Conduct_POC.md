@@ -3,7 +3,7 @@
 
 **Prerequisite**
 
-- Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP & without NAT
+- Operating System: Ubuntu 16.04 64-bit or higher. Should be facing internet directly with public IP & without NAT
 
 - Tools: Git, Docker, Docker Compose
 
@@ -22,9 +22,7 @@ Following network ports need to be open for the nodes to communicate.
 
     > git --version
 
-If present, output will be something like git version 2.17.1. in this case, go to step a.
-
-* Otherwise follow the below steps.
+If present, output will be something like git version 2.17.1. In this case, go to step a.Otherwise follow the below steps.
 
 - sudo apt update
 - sudo apt install git
@@ -55,8 +53,8 @@ The above command will install docker and docker-compose for you.
 * Copy a env.example file from XinFin-Node directory and name it as a .en
 * Open .env file and edit values for following
 
-- INSTANCE_NAME : A Display name of your masternode
-- CONTACT_DETAILS : Your Email ID
+- INSTANCE_NAME : A display name of your masternode
+- CONTACT_DETAILS : Your Email Id
 
 ![overview](/assets/xinfin-node.png)
 
@@ -69,7 +67,7 @@ The above command will install docker and docker-compose for you.
 
 This will start a Masternode and connect to a XinFin Testnet.
 
-You should be able to see your node listed on this page: [XinFin Network](https://www.xinfin.network) (Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner)
+You should be able to see your node listed on this page: [XinFin Network](https://www.xinfin.network) (Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner.)
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
@@ -102,7 +100,7 @@ Your coinbase address can be found in xdcchain/coinbase.txt file.
 
 ##**4. Become a Candidate**
 
-Add your account address and click on Become a Candidate to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted your stake of 10 Million XDC is locked.
+Add your account address and click on "Become a Candidate" to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted, your stake of 10 Million XDC is locked.
 
 ![overview](/assets/1.png)
 
@@ -115,37 +113,37 @@ In a typical factoring on infactor.io, there are 3 parties involved. Supplier, B
 
 Choose your role(Supplier, Buyer, Financier)
 
-On successful registration, A wallet account is automatically created for you.
+On successful registration, a wallet account is automatically created for you.
 
 
-Note : To register, you must have uploaded KYC, staked XDC and you are a part of XDC Network by running a masternode. In case of any malicious activity the staked XDC will be frozen.
+Note : To register, you must have uploaded KYC, staked XDC and you are a part of XDC Network by running a masternode. In case of any malicious activity, the staked XDC will be frozen.
 
 ![overview](/assets/2.png)
 
-- Supplier upload invoice details and related documents.
+- Supplier uploads invoice details and related documents.
 
 ![overview](/assets/3.png)
 
-- Buyer verfies invoice authenticity and approve/reject invoice.
+- Buyer verfies invoice authenticity and approves/rejects invoice.
 
 ![overview](/assets/4.png)
 
-- Supplier select an approved invoice for factoring, All financiers on the platform receives new factoring notification. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount
+- Supplier selects an approved invoice for factoring. All financiers on the platform receive new factoring notification. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount.
 
 ![overview](/assets/5.png)
 
-- Supplier approves the factoring proposal and the notification is sent to selected financier. 
-Financier pays first payment to supplier as per factoring criteria
+- Supplier approves the factoring proposal and the notification is sent to the selected financier. 
+Financier pays first payment to supplier as per factoring criteria.
 
 
-Note : To transfer amount, A User has to load the amount into a wallet. A deposit functionality is present in user profile section.
+Note : To transfer amount, a user has to load the amount into a wallet. A deposit functionality is present in user profile section.
 
 ![overview](/assets/6.png)
 
-- Buyer pays invoice amount to financier. A financier pays final payment(by deducting fees) to supplier
+- Buyer pays invoice amount to financier. A financier pays final payment(by deducting fees) to supplier.
 
-Fee calculation is done on the basis of Interest Rate (As per factoring criteria) and payout date. If Buyer pays invoice amount earlier to financier, fees will be less and vice versa. The fees calculation is done on the smart contract.
+Fee calculation is done on the basis of Interest Rate (as per factoring criteria) and payout date. If Buyer pays invoice amount earlier to financier, fees will be less and vice versa. The fees calculation is done on the smart contract.
 
-- Financier and Supplier can Rate each others.
+- Financier and Supplier can rate each other.
 
 ![overview](/assets/8.png)
