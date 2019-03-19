@@ -15,7 +15,7 @@ Note : To register, you must have uploaded KYC, staked XDC and you are a part of
 
 ![overview](/assets/2.png)
 
-- Supplier upload invoice details and related documents.
+- Supplier uploads invoice details and related documents.
 
 ![overview](/assets/3.png)
 
@@ -23,7 +23,7 @@ Note : To register, you must have uploaded KYC, staked XDC and you are a part of
 
 ![overview](/assets/4.png)
 
-- Supplier select an approved invoice for factoring, All financiers on the platform receives new factoring notification. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount
+- Supplier selects an approved invoice for factoring. All financiers on the platform receive new factoring notification. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount.
 
 ![overview](/assets/5.png)
 
@@ -31,14 +31,14 @@ Note : To register, you must have uploaded KYC, staked XDC and you are a part of
 Financier pays first payment to supplier as per factoring criteria
 
 
-Note : To transfer amount, A User has to load the amount into a wallet. A deposit functionality is present in user profile section.
+Note : To transfer amount, a user has to load the amount into a wallet. A deposit functionality is present in user profile section.
 
 ![overview](/assets/6.png)
 
-- Buyer pays invoice amount to financier. A financier pays final payment(by deducting fees) to supplier
+- Buyer pays invoice amount to financier. A financier pays final payment(by deducting fees) to supplier.
 
-Fee calculation is done on the basis of Interest Rate (As per factoring criteria) and payout date. If Buyer pays invoice amount earlier to financier, fees will be less and vice versa. The fees calculation is done on the smart contract.
+Fee calculation is done on the basis of Interest Rate (as per factoring criteria) and payout date. If Buyer pays invoice amount earlier to financier, fees will be less and vice versa. The fees calculation is done on the smart contract.
 
-- Financier and Supplier can Rate each others.
+- Financier and Supplier can rate each other.
 
 ![overview](/assets/8.png)
