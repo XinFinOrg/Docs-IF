@@ -1,8 +1,8 @@
 ﻿!!! quote "What is TradeFinex Platform?"
-    The interested participant is required to register as Beneficiary on www.tradefinex.org. Upon registration, the Beneficiary can initiate project creation by clicking on the "Create Project" button on Dashboard page. The beneficiary is required to fill in all the details of their project and post the project. The project will be sent to the TradeFinex Admin for verification. Upon approval by the TradeFinex Admin, the projects will be visible on the website. The Beneficiary also has the option to save information and submit later using "Save as Draft" button. 
-	
-!!! quote "Which Blockchain are supported?"
-    Ethereum's ERC 20 token creation conventions smart contract which facilitates crowd sale and related smart contracts execution on its networks.
+    TradeFinex is a decentralized peer to peer global Trade & Infrastructure Finance platform built on open standards. It provides seamless connectivity between global public investors, contract authority, project company, regulators, and other key project finance stakeholders. It brings together financiers & investors, buyers, suppliers as well as government and regulatory bodies. TradeFinex aims to minimize global trade finance gap as well as infrastructure deficit by minimizing inefficiencies and increasing liquidity by leveraging blockchain technology. Its key features include decentralized platform, smart contracting, asset tokenization, integrated wallets, real time global and cross border payments and settlements and regulatory sandbox environment – powered by XinFin’s enterprise ready hybrid blockchain protocol. TradeFinex’s Application Programming Interfaces (APIs) also provide further interoperability with other systems and platforms, thus enriching the whole trade finance ecosystem.
+
+!!! quote "XinFin's TradeFinex platform supports which blockchain?"
+    TradeFinex is built on Ethereum's ERC 20 token creation conventions smart contract which facilitates crowd sale and related smart contracts execution on its networks.
 
 !!! quote "How will I be assured that my contract is secure?"
     Our contracts have been audited by a reputed smart contract auditing firm. Our contract came out with no vulnerabilities.
